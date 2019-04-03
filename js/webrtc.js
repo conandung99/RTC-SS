@@ -84,7 +84,7 @@ var pcConstraints = {"optional": [{"DtlsSrtpKeyAgreement": true}]};
 var constraints = {
   video: {
     cursor: "never",
-    frameRate: 120,
+    frameRate: 30,
     resolution: 'hd720'
   },
   audio: false
