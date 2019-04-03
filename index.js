@@ -24,8 +24,8 @@ app.get('/img/glyphicons-halflings.png', function(req, res) {
   res.sendFile(__dirname + '/img/glyphicons-halflings.png');
 });
 
-app.get('/javicon.ico', function(req, res) {
-  res.sendFile(__dirname + '/javicon.ico');
+app.get('/favicon.ico', function(req, res) {
+  res.sendFile(__dirname + '/favicon.ico');
 });
 
 app.get('/css/bootstrap.css', function(req, res) {
