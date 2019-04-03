@@ -1,0 +1,22 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "Build a video call application using webrtc and websocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webRTc",
+    "websocket",
+    "Videocall"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.4",
+    "webrtc.io": "latest",
+    "websocket-over-nodejs": "latest",
+    "ws": "latest"
+  }
+}
